@@ -1,0 +1,22 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('OIP.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    display: flex;
+    flex-direction: row;  /* Asegura que los elementos se apilen verticalmente */
+    justify-content: flex-end; /* Empuja los elementos hacia abajo */
+    align-items:last baseline;  /* Centra horizontalmente */
+}
+h1
+{
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
